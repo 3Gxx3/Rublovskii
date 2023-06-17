@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-image: url(https://flomaster.club/uploads/posts/2022-07/1657846896_3-flomaster-club-p-stol-vid-sverkhu-risunok-krasivo-4.jpg);
+    background-size: cover;зробив щоб задній фон не дуюлювався */
+    background: linear-gradient(270deg, #33ccff 0%, #ff99cc 100%);
+}    
+
+.wrapper {
+    margin: 0 auto;
+    width: 95%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: 3px solid white; 
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 3px 3px rgb(255, 255, 255);
+}
+.inputs {
+    display: flex;
+    justify-content: space-around;
+	padding: 10px;
+	width: 20%;
+	margin: 0 auto;
+}
+
+#add {
+    height: 30px;
+    width: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    color: azure;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#text_item {
+    border-radius: 5px;
+}
+
+.Item {
+    color: beige;
+    cursor: pointer;
+    width: auto;
+    min-width: 100px;
+	height: 80px;/* зробив фіксовану висоту блоку*/
+	background: rgba(0, 0, 0, 0.3);
+	padding: 30px;
+	margin: 10px;
+	border-radius: 10px;
+    border: 1.5px solid white;
+}
+#todolist {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.archive {
+    background: rgba(255, 255, 255, 0.3);
+    text-decoration: line-through;
+}
